@@ -67,7 +67,7 @@ from collections import OrderedDict
 weekender = False
 
 if len(sys.argv) < 2:
-    print '2nd argument required: directory to be processed, e.g. "tagging". Example usage: python tagger.py tagging'
+    print('2nd argument required: directory to be processed, e.g. "tagging". Example usage: python tagger.py tagging')
     sys.exit()
 if len(sys.argv) == 3 and sys.argv[2] == 'weekender':
     weekender = True
